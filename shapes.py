@@ -1,0 +1,35 @@
+from turtle import Screen,Turtle
+s1=Screen()
+t1=Turtle()
+t1.shape("turtle")
+t1.penup()
+t1.goto(-200,100)
+t1.pendown()
+t1.pencolor("yellow")
+t1.circle(60)
+t1.penup()
+t1.goto(200,100)
+t1.pendown()
+t1.pencolor("blue")
+t1.forward(100)
+for i in range(3):
+    t1.left(90)
+    t1.forward(100)
+t1.penup()
+t1.goto(200,-100)
+t1.pendown()
+t1.pencolor("green")
+t1.forward(100)
+for i in range(2):
+    t1.left(120)
+    t1.forward(100)
+t1.penup()
+t1.goto(-200,-100)
+t1.pendown()
+t1.pencolor("red")
+for i in range(5):
+    t1.forward(100)
+    t1.left(72)
+
+
+s1.mainloop()
